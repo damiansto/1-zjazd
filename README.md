@@ -1,4 +1,4 @@
-# Komputerowe wspomaganie nauczania przedmiotów cisych i przyrodniczych
+# Komputerowe wspomaganie nauczania przedmiotów scisych i przyrodniczych
 
 ##Zadania ze zjazdu 4-6.03.2016
 *Ćwiczenie 1
