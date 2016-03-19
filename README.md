@@ -45,6 +45,7 @@ print(y)
 plt.plot(x,y,'.b',x,y,'-k')
 ```
 *Ćwiczenie 2
+
 Zadanie 1
 ###Napisz skrypt który wykonuje nastpujaca operacje 
 1. Buduje liste kodujaca wielomian W(x)=2x^4+4x^3+x+7
