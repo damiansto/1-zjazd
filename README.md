@@ -1,7 +1,7 @@
 # Komputerowe wspomaganie nauczania przedmiotów scisych i przyrodniczych
 
 ##Zadania ze zjazdu 4-6.03.2016
-*Ćwiczenie 1
+*Ćwiczenie 1*
 
 Zadanie 1 
 ###Napisz skrypt który wykonuje nastpujaca operacje 
@@ -44,7 +44,7 @@ print(y)
 
 plt.plot(x,y,'.b',x,y,'-k')
 ```
-*Ćwiczenie 2
+*Ćwiczenie 2*
 
 Zadanie 1
 ###Napisz skrypt który wykonuje nastpujaca operacje 
