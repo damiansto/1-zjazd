@@ -6,9 +6,7 @@
 Zadanie 1 
 ###Napisz skrypt który wykonuje nastpujaca operacje 
 a) definiuje zmienna n rowna np. 101;
-
 b) buduje liste x, zawierajaca n rownoodleglych liczb z przedzialu (-2PI, 2PI);
-
 c) oblicza liste s, zawierajaca sinusy liczb zawartych w liscie x;
 d) oblicza liste c, zawierajaca cosinusy liczb zawartych w liscie x;
 e) tworzy wykres funkcji sinus (linia ciagla zielona) i cosinus (linia czerwona przerywana), za pomoca list x, s, c;
