@@ -1,6 +1,8 @@
 # Komputerowe wspomaganie nauczania przedmiotów scisych i przyrodniczych
 
+
 ##Zadania ze zjazdu 4-6.03.2016
+
 ##*Ćwiczenie 1*
 
 ###Zadanie 1 
@@ -51,15 +53,16 @@ sr = np.mean(jt)
 # j
 print(sr)
 ```
-Zadanie 2
-###Napisz skrypt który wykonuje nastpujaca operacje 
+
+
+###Zadanie 2
+#####Napisz skrypt który wykonuje nastpujaca operacje 
 a) definiuje zmienna n rowna np. 3; 
 b) buduje liste A o wymiarze n x n za pomoca polecenia rand; 
 c) buduje n-elementowa liste b za pomoca polecenia randint; 
 d) rozwiazuje uklad rownan Ax = b i wstawia wyniki do listy xA;
 e) oblicza macierz B  bedaca transpozycja macierzy A;
 g) tworzy wykres, zawierajacy punkty wyznaczone przez odpowiednie elementy list xA i yB (kolka polaczone czerwona linia) oraz punkty wyznaczone przez odpowiednie elementy list yB i xA (krzyzyki polaczone zolta linia);
-
 
 ```python
 import numpy as np
@@ -90,10 +93,12 @@ plt.plot(xA,yB,'o-r',yB,xA,'x-y')
 plt.show()
 ```
 
+
+
 ##Zadania ze zjazdu 18-20.03.2016
 
-Zadanie 3 
-###Napisz skrypt który wykonuje nastpujaca operacje 
+###Zadanie 3 
+#####Napisz skrypt który wykonuje nastpujaca operacje 
 a) definiuje zmienna n rowna np. 30;
 b) oblicza sume liczb naturalnych od 1 do n i wyswietla wynik za pomoca polecenia print;
 c) oblicza sume liczb parzystych od 2 do 2n i wyswietla wynik za pomoca polecenia print;
@@ -146,10 +151,12 @@ print(y)
 #h
 plt.plot(x,y,'.b',x,y,'-k')
 ```
-*Ćwiczenie 2*
 
-Zadanie 1
-###Napisz skrypt który wykonuje nastpujaca operacje 
+
+##*Ćwiczenie 2*
+
+###Zadanie 1
+#####Napisz skrypt który wykonuje nastpujaca operacje 
 1. Buduje liste kodujaca wielomian W(x)=2x^4+4x^3+x+7
 2. Wyswietla wartosc wielomianu w punkcie x=3
 3. Wyswietla wykres wielomianu z zaznaczonym punktem x=3
