@@ -53,8 +53,42 @@ print(sr)
 ```
 Zadanie 2
 ###Napisz skrypt który wykonuje nastpujaca operacje 
+a) definiuje zmienna n rowna np. 3; 
+b) buduje liste A o wymiarze n x n za pomoca polecenia rand; 
+c) buduje n-elementowa liste b za pomoca polecenia randint; 
+d) rozwiazuje uklad rownan Ax = b i wstawia wyniki do listy xA;
+e) oblicza macierz B  bedaca transpozycja macierzy A;
+g) tworzy wykres, zawierajacy punkty wyznaczone przez odpowiednie elementy list xA i yB (kolka polaczone czerwona linia) oraz punkty wyznaczone przez odpowiednie elementy list yB i xA (krzyzyki polaczone zolta linia);
 
 
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+import numpy.random as npr
+import numpy.linalg as npl
+
+# a
+n = 3
+
+# b
+A = npr.rand(n,n)
+
+# c
+b = npr.randint(10,size=n)
+
+# d
+xA = npl.solve(A,b)
+
+# e
+B = np.transpose(A)
+
+# f
+yB = npl.solve(B,b)
+
+# g
+plt.plot(xA,yB,'o-r',yB,xA,'x-y')
+plt.show()
+```
 
 ##Zadania ze zjazdu 18-20.03.2016
 
