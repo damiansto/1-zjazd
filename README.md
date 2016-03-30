@@ -1,10 +1,10 @@
 # Komputerowe wspomaganie nauczania przedmiotów scisych i przyrodniczych
 
-####Zadania ze zjazdu 4-6.03.2016
-#*Ćwiczenie 1*
+##Zadania ze zjazdu 4-6.03.2016
+##*Ćwiczenie 1*
 
-##Zadanie 1 
-###Napisz skrypt który wykonuje nastpujaca operacje 
+###Zadanie 1 
+#####Napisz skrypt który wykonuje nastpujaca operacje 
 a) definiuje zmienna n rowna np. 101;
 b) buduje liste x, zawierajaca n rownoodleglych liczb z przedzialu (-2PI, 2PI);
 c) oblicza liste s, zawierajaca sinusy liczb zawartych w liscie x;
